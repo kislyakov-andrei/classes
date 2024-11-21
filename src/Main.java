@@ -14,13 +14,13 @@ public class Main {
         System.out.println(book1);
 
         Book book2 = new Book("Пётр Первый",author2, 1930);
-        System.out.println(book2.getTitle() + ", " + book2.getAuthor() + ", " + book2.getPublishYear());
+        System.out.println(book2);
 
         Book book3 = new Book("Недоросль", author3, 1782);
         System.out.println(book3);
 
         book3.setPublishYear(1801);
-        System.out.println(book3.getTitle() + ", " + book3.getAuthor() + ", " + book3.getPublishYear());
+        System.out.println(book3);
 
         book1.setPublishYear (1900);
         System.out.println(book1);
